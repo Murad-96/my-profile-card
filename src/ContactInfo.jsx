@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { SocialIcon } from 'react-social-icons'
 
 function ContactInfo(props) {
     const [showContacts, setShowContacts] = useState(false);
@@ -15,6 +16,11 @@ function ContactInfo(props) {
             {showContacts && <div className="ContactInfo">
                 <p>{props.phone}</p>
                 <p>{props.email}</p>
+            </div>}
+            {showContacts && 
+            <div className="SM">
+                <SocialIcon url={props.x}/>
+                <SocialIcon url={props.linkedin}/>    
             </div>}
         </section>
     );

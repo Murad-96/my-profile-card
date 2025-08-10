@@ -2,13 +2,18 @@ import logo from './logo.svg';
 import './App.css';
 import ProfileCard from './ProfileCard'
 import ContactInfo from './ContactInfo';
-import ContactButton from './Button';
 
 function App() {
   return (
     <div>
-      <ProfileCard name="Murad Magdiyev"/>
-      <ContactInfo email="muradmagdiyev@gmail.com" phone="+447538720079" className="contacts"/>
+      <ProfileCard first="my" last="name"/>
+      <ContactInfo 
+        email="muradmagdiyev@gmail.com" 
+        phone="+447538720079" 
+        className="contacts"
+        linkedin="https://www.linkedin.com/in/murad-magdiyev/"
+        x="https://x.com/murad_227"
+      />
     </div>
   );
 }
