@@ -52,7 +52,7 @@ export default function InputForm() {
                 </label>
                 <br/>
                 <h3>Your bio</h3>
-                <textarea value={textarea} onChange={handleChange} />
+                <textarea className="bio" value={textarea} onChange={handleChange} />
                 <br/>
                 <h3>Your contact details</h3>
                 <label> Phone:
