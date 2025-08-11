@@ -1,5 +1,8 @@
 # Profile card generator app
 This simple app generates a profile card for the given info. Built with ReactJS.
+Example output below
+
+![alt-text](https://github.com/Murad-96/my-profile-card/blob/main/screenshot.png)
 
 # Getting Started with Create React App
 
