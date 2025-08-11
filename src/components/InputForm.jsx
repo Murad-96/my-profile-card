@@ -22,7 +22,7 @@ export default function InputForm() {
     }
 
     function isValidPhoneNumber(phone) {
-        const phoneRegex = /^[0-9.]*$/;
+        const phoneRegex = /^[0-9.+]*$/;
         return phoneRegex.test(phone);
     }
 
