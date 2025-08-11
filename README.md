@@ -1,3 +1,6 @@
+# Profile card generator app
+This simple app generates a profile card for the given info. Built with ReactJS.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
