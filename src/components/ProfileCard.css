@@ -1,0 +1,13 @@
+
+p {
+    display: block;
+}
+
+.profileCard {
+    background-color: rgba(150, 149, 173, 0.933);
+    width: 600px;
+}
+
+img {
+    width: 100px;
+}

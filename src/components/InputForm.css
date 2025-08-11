@@ -1,0 +1,30 @@
+
+.first {
+    margin-left: 10px;
+    margin-bottom: 8px;
+}
+
+.last {
+    margin-left: 10px;
+}
+
+.phone {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.email {
+    margin-left: 17px;
+}
+
+.ln {
+    margin-left: 10px;
+}
+
+.x {
+    margin-left: 20px;
+}
+
+.emailWarn {
+    color: brown;
+}
